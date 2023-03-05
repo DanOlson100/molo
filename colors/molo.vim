@@ -22,6 +22,10 @@ if version > 580
 endif
 let g:colors_name="molo"
 
+" Indentation Guides
+hi IndentGuidesOdd   guibg=black     ctermbg=0
+hi IndentGuidesEven  guibg=#262626   ctermbg=235
+
 " Colors
 hi Boolean         guifg=#AE81FF               gui=none      ctermfg=135
 hi Character       guifg=#E6DB74                             ctermfg=144
