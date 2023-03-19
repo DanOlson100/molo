@@ -21,6 +21,7 @@ if version > 580
     endif
 endif
 let g:colors_name="molo"
+let g:loaded_molo=1
 
 " Indentation Guides
 hi IndentGuidesOdd                 guibg=black                                   ctermbg=0
@@ -28,18 +29,18 @@ hi IndentGuidesEven                guibg=#262626                                
 
 " Colors
 hi Boolean           guifg=#AE81FF               gui=none      ctermfg=135
-hi Character         guifg=#E6DB74                             ctermfg=144
-hi ColorColumn                     guibg=#232526                                 ctermbg=236
-hi Comment           guifg=#7E8E91                             ctermfg=59
+hi Character         guifg=#E6DB74               gui=none      ctermfg=144
+hi ColorColumn                     guibg=#232526 gui=none                        ctermbg=236
+hi Comment           guifg=#7E8E91               gui=none      ctermfg=59
 hi Conditional       guifg=#F92672               gui=bold      ctermfg=161                     cterm=bold 
 hi Constant          guifg=#AE81FF               gui=bold      ctermfg=135                     cterm=bold
 hi Cursor            guifg=#000000 guibg=#F8F8F0 gui=none      ctermfg=16        ctermbg=253   
-hi CursorColumn                    guibg=#293739                                 ctermbg=236  
+hi CursorColumn                    guibg=#293739 gui=none                        ctermbg=236  
 hi CursorLine                      guibg=#293739 gui=none                        ctermbg=234   cterm=none
 hi CursorLineNr      guifg=#FD971F               gui=none      ctermfg=208                     cterm=none
 hi Debug             guifg=#BCA3A3               gui=bold      ctermfg=225                     cterm=bold
-hi Define            guifg=#66D9EF                             ctermfg=81
-hi Delimiter         guifg=#8F8F8F                             ctermfg=241      
+hi Define            guifg=#66D9EF               gui=none      ctermfg=81
+hi Delimiter         guifg=#8F8F8F               gui=none      ctermfg=241      
 hi DiffAdd           guifg=#000000 guibg=#005f87               ctermfg=16        ctermbg=24
 hi DiffChange                      guibg=#303030                                 ctermbg=236  
 hi DiffDelete        guifg=#000000 guibg=#5f005f               ctermfg=16        ctermbg=53
