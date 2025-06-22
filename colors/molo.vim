@@ -58,6 +58,10 @@ hi GitSignsChangedeleteLn                  guibg=#262626                        
 hi IndentGuidesOdd                         guibg=black                                   ctermbg=0
 hi IndentGuidesEven                        guibg=#262626                                 ctermbg=235
 
+"hi BlinkCmpMenuBorder        
+"hi BlinkCmpDocBorder         
+"hi BlinkCmpSignatureHelpBorder
+
 " Colors
 hi Boolean                   guifg=#AE81FF               gui=none      ctermfg=135
 hi Character                 guifg=#E6DB74               gui=none      ctermfg=144
@@ -67,7 +71,7 @@ hi Conditional               guifg=#F92672               gui=bold      ctermfg=1
 hi Constant                  guifg=#AE81FF               gui=bold      ctermfg=135                     cterm=bold
 hi Cursor                    guifg=#000000 guibg=#F8F8F0 gui=none      ctermfg=16        ctermbg=253   
 hi CursorColumn                            guibg=#293739 gui=none                        ctermbg=236  
-hi CursorLine                              guibg=#293739 gui=none                        ctermbg=234   cterm=none
+hi CursorLine                              guibg=#262626 gui=none                        ctermbg=235   cterm=none
 hi CursorLineNr              guifg=#FD971F               gui=none      ctermfg=208                     cterm=none
 hi Debug                     guifg=#BCA3A3               gui=bold      ctermfg=225                     cterm=bold
 hi Define                    guifg=#66D9EF               gui=none      ctermfg=81
@@ -95,12 +99,15 @@ hi MatchParen                guifg=#000000 guibg=#FD971F gui=bold      ctermfg=2
 hi ModeMsg                   guifg=#E6DB74                             ctermfg=229      
 hi MoreMsg                   guifg=#E6DB74                             ctermfg=229      
 hi NonText                   guifg=#465457                             ctermfg=59
-hi Normal                    guifg=#F8F8F2 guibg=#1B1D1E gui=none      ctermfg=252       ctermbg=233   cterm=none
+hi Normal                    guifg=#F8F8F2 guibg=#121212 gui=none      ctermfg=252       ctermbg=233   cterm=none
+hi NormalFloat               guifg=#F8F8F2 guibg=#000000 gui=none      ctermfg=252       ctermbg=000   cterm=none
 hi Number                    guifg=#AE81FF                             ctermfg=135      
 hi Operator                  guifg=#F92672                             ctermfg=161      
-hi Pmenu                     guifg=#66D9EF guibg=#000000               ctermfg=81        ctermbg=16
+hi Pmenu                     guifg=#8a8a8a guibg=#121212               ctermfg=248       ctermbg=233
+hi PmenuExtra                guifg=#8a8a8a guibg=#121212               ctermfg=248       ctermbg=233
+hi PmenuKind                 guifg=#BCBCBC guibg=#121212               ctermfg=250       ctermbg=233
 hi PmenuSbar                               guibg=#080808                                 ctermbg=232  
-hi PmenuSel                                guibg=#808080               ctermfg=255       ctermbg=242  
+hi PmenuSel                  guifg=#262626 guibg=#aF0000               ctermfg=235       ctermbg=124 
 hi PmenuThumb                guifg=#66D9EF                             ctermfg=81
 hi PreCondit                 guifg=#A6E22E               gui=bold      ctermfg=118                     cterm=bold
 hi PreProc                   guifg=#A6E22E                             ctermfg=118      
@@ -122,8 +129,8 @@ hi StatusLineNC              guifg=#808080 guibg=#080808               ctermfg=2
 hi StorageClass              guifg=#FD971F               gui=italic    ctermfg=208      
 hi String                    guifg=#E6DB74                             ctermfg=144      
 hi Structure                 guifg=#66D9EF                             ctermfg=81
-hi TabLine                   guibg=#1B1D1E guifg=#808080 gui=none
-hi TabLineFill               guifg=#1B1D1E guibg=#1B1D1E
+hi TabLine                   guibg=#121212 guifg=#808080 gui=none
+hi TabLineFill               guifg=#121212 guibg=#1B1D1E
 hi Tag                       guifg=#F92672               gui=italic    ctermfg=161      
 hi Title                     guifg=#ef5939                             ctermfg=166      
 hi Todo                      guifg=#FFFFFF guibg=bg      gui=bold      ctermfg=231       ctermbg=232   cterm=bold
